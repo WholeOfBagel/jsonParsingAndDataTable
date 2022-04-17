@@ -8,7 +8,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Json Parsing Demo'),
+        title: Text('My Saved'),
       ),
       body: ChangeNotifierProvider<MyHomePageProvider>(
         create: (context) => MyHomePageProvider(),
@@ -26,20 +26,20 @@ class MyHomePage extends StatelessWidget {
                 child: DataTable(
                   columns: [
                     DataColumn(
-                        label: Text('Verified'),
-                        tooltip: 'represents if user is verified.'),
+                        label: Text('Pinned'),
+                        tooltip: 'Represents if the variant is pinned on the map.'),
                     DataColumn(
-                        label: Text('First Name'),
-                        tooltip: 'represents first name of the user'),
+                        label: Text('Accession'),
+                        tooltip: 'Represents the accession for the strand to be tracked back to GenBank'),
                     DataColumn(
-                        label: Text('Last Name'),
-                        tooltip: 'represents last name of the user'),
+                        label: Text('Geographic Location'),
+                        tooltip: 'Represents the geographic area from which this strand was collected'),
                     DataColumn(
-                        label: Text('Email'),
-                        tooltip: 'represents email address of the user'),
+                        label: Text('Date Collected'),
+                        tooltip: 'Represents the date the sample was collected'),
                     DataColumn(
-                        label: Text('Phone'),
-                        tooltip: 'represents phone number of the user'),
+                        label: Text('Length'),
+                        tooltip: 'Represents the nucleotide length of the strand'),
                   ],
                   rows: provider.data.results
                       .map((data) =>
@@ -47,17 +47,17 @@ class MyHomePage extends StatelessWidget {
                           DataRow(
                               // List<DataCell> cells is required in every row
                               cells: [
-                                DataCell((data.verified)
+                                DataCell((data.pinned)
                                     ? Icon(
-                                        Icons.verified_user,
+                                        Icons.push_pin,
                                         color: Colors.green,
                                       )
-                                    : Icon(Icons.cancel, color: Colors.red)),
+                                    : Icon(Icons.panorama_fish_eye, color: Colors.red)),
                                 // I want to display a green color icon when user is verified and red when unverified
-                                DataCell(Text(data.firstName)),
-                                DataCell(Text(data.lastName)),
-                                DataCell(Text(data.email)),
-                                DataCell(Text(data.phone)),
+                                DataCell(Text(data.accession)),
+                                DataCell(Text(data.geoLocation)),
+                                DataCell(Text(data.dateCollected)),
+                                DataCell(Text(data.length)),
                               ]))
                       .toList(),
                 ),

@@ -3,214 +3,64 @@
   "next": "Some URL for next page",
   "results": [
     {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
+      "accession": "NC_045512",
+      "geoLocation": "China",
+      "dateCollected": "2019-12",
+      "length": "29903",
+      "pinned": true
     },
     {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": false
+      "accession": "NC_045512",
+      "geoLocation": "China",
+      "dateCollected": "2019-12",
+      "length": "29903",
+      "pinned": false
     },
     {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
+      "accession": "NC_045512",
+      "geoLocation": "China",
+      "dateCollected": "2019-12",
+      "length": "29903",
+      "pinned": false
     },
     {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
+      "accession": "NC_045512",
+      "geoLocation": "China",
+      "dateCollected": "2019-12",
+      "length": "29903",
+      "pinned": true
+    },{
+      "accession": "NC_045512",
+      "geoLocation": "China",
+      "dateCollected": "2019-12",
+      "length": "29903",
+      "pinned": false
     },
     {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": false
+      "accession": "NC_045512",
+      "geoLocation": "China",
+      "dateCollected": "2019-12",
+      "length": "29903",
+      "pinned": true
+    },{
+      "accession": "NC_045512",
+      "geoLocation": "China",
+      "dateCollected": "2019-12",
+      "length": "29903",
+      "pinned": false
+    },{
+      "accession": "NC_045512",
+      "geoLocation": "China",
+      "dateCollected": "2019-12",
+      "length": "29903",
+      "pinned": false
     },
     {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": false
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": false
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": false
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": false
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": false
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": false
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": false
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": false
-    },
-    {
-      "first_name": "Suprem",
-      "last_name": "Nandal",
-      "email": "suprem.nandal@gmail.com",
-      "phone": "+911234567890",
-      "verified": true
+      "accession": "NC_045512",
+      "geoLocation": "China",
+      "dateCollected": "2019-12",
+      "length": "29903",
+      "pinned": true
     }
   ]
 }

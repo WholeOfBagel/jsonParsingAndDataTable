@@ -16,17 +16,17 @@ class MyData {
 }
 
 class Results {
-  String firstName;
-  String lastName;
-  String email;
-  String phone;
-  bool verified;
+  String accession;
+  String geoLocation;
+  String dateCollected;
+  String length;
+  bool pinned;
 
   Results.fromJson(Map<String, dynamic> json) {
-    firstName = json['first_name'];
-    lastName = json['last_name'];
-    email = json['email'];
-    phone = json['phone'];
-    verified = json['verified'];
+    accession = json['accession'];
+    geoLocation = json['geoLocation'];
+    dateCollected = json['dateCollected'];
+    length = json['length'];
+    pinned = json['pinned'];
   }
 }
